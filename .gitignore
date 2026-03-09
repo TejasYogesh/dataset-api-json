@@ -1,0 +1,102 @@
+# ============================================================
+# MAVEN BUILD OUTPUT
+# Never commit compiled code — it's generated, not written
+# ============================================================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ============================================================
+# INTELLIJ IDEA
+# ============================================================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# ============================================================
+# VS CODE
+# ============================================================
+.vscode/
+*.code-workspace
+.classpath
+.project
+.settings/
+.factorypath
+
+# ============================================================
+# ECLIPSE
+# ============================================================
+*.eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders
+
+# ============================================================
+# SPRING BOOT
+# ============================================================
+spring-shell.log
+
+# ============================================================
+# LOGS — never commit log files
+# ============================================================
+*.log
+logs/
+log/
+
+# ============================================================
+# OPERATING SYSTEM FILES
+# ============================================================
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+
+# ============================================================
+# ENVIRONMENT & SECRETS — VERY IMPORTANT
+# Never commit passwords, API keys, or credentials
+# ============================================================
+.env
+.env.local
+.env.production
+application-secret.properties
+application-prod.properties
+secrets.properties
+
+# ============================================================
+# JAVA
+# ============================================================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
