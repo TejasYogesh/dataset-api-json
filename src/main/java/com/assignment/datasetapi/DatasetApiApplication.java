@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * ✅ WHAT IS THIS?
+ * 
  * The entry point of the Spring Boot application.
  *
- * ✅ @SpringBootApplication is a shortcut for THREE annotations:
+ * @SpringBootApplication is a shortcut for THREE annotations:
  *
  * 1. @Configuration
  *    → This class can define Spring @Bean methods
@@ -23,7 +23,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *       @Component, @Service, @Repository, @Controller, @RestController
  *    → Registers them all as Spring Beans automatically
  *
- * ✅ HOW TO RUN:
+ * HOW TO RUN:
  * From terminal: mvn spring-boot:run
  * Or: java -jar target/dataset-api-1.0.0.jar
  * Then visit: http://localhost:8080/swagger-ui.html
@@ -35,10 +35,10 @@ public class DatasetApiApplication {
         SpringApplication.run(DatasetApiApplication.class, args);
         System.out.println("""
                 
-                ✅ Dataset API started successfully!
-                📋 Swagger UI:   http://localhost:8080/swagger-ui.html
-                🗄️  H2 Console:   http://localhost:8080/h2-console
-                📦 API Base URL: http://localhost:8080/api/dataset
+                Dataset API started successfully!
+                Swagger UI:   http://localhost:8080/swagger-ui.html
+                H2 Console:   http://localhost:8080/h2-console
+                API Base URL: http://localhost:8080/api/dataset
                 """);
     }
 }
